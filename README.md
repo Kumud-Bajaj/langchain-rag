@@ -59,9 +59,9 @@ chromadb==0.5.0
 openai==1.31.1
 tiktoken==0.7.0
 
-## 🖼️ Demo
+🖼️ Demo
 
-![Screenshot of RAG pipeline](https://github.com/Kumud-Bajaj/langchain-rag/raw/main/assets/screenshot.png)
+![Screenshot of RAG pipeline](https://raw.githubusercontent.com/Kumud-Bajaj/langchain-rag/main/assets/screenshot.png)
 
 
 📌 Notes

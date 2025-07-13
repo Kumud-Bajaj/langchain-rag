@@ -18,34 +18,45 @@ LANGCHAIN-RAG/
 ├── query_data.py        # Script to ask questions
 ├── requirements.txt     # Project dependencies
 └── README.md            # Project documentation
-
+```
 
 🚀 Getting Started
 1. Start the Ollama server
 Make sure Ollama is installed and running locally:
+```bash
 ollama serve
+```
 
 2. Pull a language model (e.g., LLaMA 3)
+```bash
 ollama run llama3
+```
 This ensures the model is available for inference.
 
 3. Install dependencies
 We recommend using a virtual environment:
+```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 4. Prepare your data
 Place your .md files in the data/ folder. For example:
-
+```bash
 data/
 ├── alice_in_wonderland.md
+```
 Then run:
+```bash
 python create_database.py
+```
 This will embed the Markdown files and store them in ChromaDB locally.
 
 5. Ask questions
+```bash
 python query_data.py "Who is the White Rabbit?"
+```
 You’ll get answers based only on the context in your Markdown files.
 
 📦 Dependencies (requirements.txt)

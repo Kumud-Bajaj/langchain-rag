@@ -61,7 +61,7 @@ tiktoken==0.7.0
 
 ## 🖼️ Demo
 
-![Screenshot of RAG pipeline](assets/screenshot.png)
+![Screenshot of RAG pipeline](https://github.com/Kumud-Bajaj/langchain-rag/raw/main/assets/screenshot.png)
 
 
 📌 Notes

@@ -70,12 +70,12 @@ chromadb==0.5.0
 openai==1.31.1
 tiktoken==0.7.0
 
-🖼️ Demo
+## 🖼️ Demo
 
 ![Screenshot of RAG pipeline](https://raw.githubusercontent.com/Kumud-Bajaj/langchain-rag/main/assets/screenshot.png)
 
 
-📌 Notes
+## 📌 Notes
 Works completely offline with local models (no OpenAI API required).
 
 Uses all-MiniLM-L6-v2 for embedding via HuggingFace.

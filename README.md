@@ -20,7 +20,7 @@ LANGCHAIN-RAG/
 └── README.md            # Project documentation
 ```
 
-🚀 Getting Started
+## 🚀 Getting Started
 1. Start the Ollama server
 Make sure Ollama is installed and running locally:
 ```bash
@@ -59,7 +59,7 @@ python query_data.py "Who is the White Rabbit?"
 ```
 You’ll get answers based only on the context in your Markdown files.
 
-📦 Dependencies (requirements.txt)
+## 📦 Dependencies (requirements.txt)
 
 python-dotenv==1.0.1
 langchain==0.2.2

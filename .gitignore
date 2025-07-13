@@ -1,0 +1,14 @@
+# Ignore Python envs
+.venv/
+__pycache__/
+
+# Ignore Chroma DB storage
+chroma/
+*.db
+*.sqlite3
+
+# Ignore environment files
+.env
+
+# Ignore macOS junk files
+.DS_Store

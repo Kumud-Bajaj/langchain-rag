@@ -21,56 +21,33 @@ LANGCHAIN-RAG/
 🚀 Getting Started
 1. Start the Ollama server
 Make sure Ollama is installed and running locally:
-
-bash
-Copy
-Edit
 ollama serve
+
 2. Pull a language model (e.g., LLaMA 3)
-bash
-Copy
-Edit
 ollama run llama3
 This ensures the model is available for inference.
 
 3. Install dependencies
 We recommend using a virtual environment:
-
-bash
-Copy
-Edit
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
 4. Prepare your data
 Place your .md files in the data/ folder. For example:
 
-kotlin
-Copy
-Edit
 data/
 ├── alice_in_wonderland.md
-├── notes.md
-└── white_rabbit.md
 Then run:
-
-bash
-Copy
-Edit
 python create_database.py
 This will embed the Markdown files and store them in ChromaDB locally.
 
 5. Ask questions
-bash
-Copy
-Edit
 python query_data.py "Who is the White Rabbit?"
 You’ll get answers based only on the context in your Markdown files.
 
 📦 Dependencies (requirements.txt)
-text
-Copy
-Edit
+
 python-dotenv==1.0.1
 langchain==0.2.2
 langchain-community==0.2.3
@@ -79,6 +56,12 @@ unstructured==0.14.4
 chromadb==0.5.0
 openai==1.31.1
 tiktoken==0.7.0
+
+## 🖼️ Demo
+
+![Screenshot of RAG pipeline](assets/screenshot.png)
+
+
 📌 Notes
 Works completely offline with local models (no OpenAI API required).
 

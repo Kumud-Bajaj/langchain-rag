@@ -18,6 +18,8 @@ LANGCHAIN-RAG/
 ├── query_data.py        # Script to ask questions
 ├── requirements.txt     # Project dependencies
 └── README.md            # Project documentation
+
+
 🚀 Getting Started
 1. Start the Ollama server
 Make sure Ollama is installed and running locally:
